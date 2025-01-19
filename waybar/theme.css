@@ -1,0 +1,42 @@
+
+
+@define-color main-fg         #cdd6f4;  /* Светлый текст */
+@define-color main-bg         #1A1D20;  /* Очень тёмный фон */
+@define-color main-br         #cdd6f4;  /* Граница, соответствующая тексту */
+
+@define-color active-bg       #4C7291;  /* Цвет активных элементов */
+@define-color active-fg       #1A1D20;  /* Тёмный текст активных элементов */
+
+@define-color hover-bg        #313244;  /* Цвет фона при наведении */
+@define-color hover-fg        rgba(205, 214, 244, 0.75);  /* Полупрозрачный светлый текст при наведении */
+
+@define-color white           #ffffff;  /* Белый цвет */
+@define-color black           #000000;  /* Чёрный цвет */
+
+/* Module Colors */
+
+@define-color module-fg       #f5e0dc;  /* Текст в модулях */
+@define-color workspaces      #181825;  /* Цвет рабочих областей */
+
+@define-color cpuinfo         #55799B;  /* Цвет информации о CPU */
+@define-color memory          #1e1e2e;  /* Цвет для памяти */
+@define-color cpu             #313244;  /* Цвет для CPU */
+@define-color distro-fg       #000000;  /* Цвет для текста дистрибутива */
+@define-color distro-bg       #4C7291;  /* Цвет фона для дистрибутива */
+@define-color time            #313244;  /* Цвет для времени */
+@define-color date            #1e1e2e;  /* Цвет для даты */
+@define-color tray            #55799B;  /* Цвет трей-панели */
+
+@define-color pulseaudio      #55799B;  /* Цвет для аудио */
+@define-color backlight       #1e1e2e;  /* Цвет подсветки */
+@define-color battery         #313244;  /* Цвет батареи */
+@define-color power           #4C7291;  /* Цвет для управления питанием */
+
+/* State Colors */
+
+@define-color good            #a6e3a1;  /* Цвет для хорошего состояния */
+@define-color warning         #f9e2af;  /* Цвет для предупреждений */
+@define-color critical        #f38ba8;  /* Цвет для критических состояний */
+@define-color full            #a6e3a1;  /* Цвет для полного заряда */
+@define-color charging        #cdd6f4;  /* Цвет для заряда */
+
